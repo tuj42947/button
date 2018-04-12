@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         public void onClick(View view) {
             count++;
             TextView textView = (TextView) findViewById(R.id.txtCountDisplay);
-            textView.setText("Hello World!" + count);
+            textView.setText("Hellooo World!" + count);
         }
     });
 
